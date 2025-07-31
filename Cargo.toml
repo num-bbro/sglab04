@@ -1,0 +1,4 @@
+[workspace]
+members=[ "mainbin", "sglib06"]
+resolver="3"
+
