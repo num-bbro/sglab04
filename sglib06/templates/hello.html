@@ -1,2 +1,72 @@
-<H1>HELLO {{name}}</H>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>{{name}}</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
+<style>
+{% include "blueTable.css" %}
+.head_1 {
+    text-align: left;
+}
+.head_2 {
+    text-align: left;
+}
+.head_3 {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+.head_4 {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+.cell_1 {
+    text-align: left;
+    width: 30px;
+}
+.cell_2 {
+    text-align: center;
+    width: 200px;
+}
+.cell_3 {
+    text-align: right;
+    width: 100px;
+}
+.cell_4 {
+    text-align: right;
+    width: 100px;
+}
+</style>
+</head>
+<body>
+
+<table class="blueTable">
+<thead>
+<tr>
+<th class="head_1">head1</th>
+<th class="head_2">head2</th>
+<th class="head_3">head3</th>
+<th class="head_4">head4</th>
+</tr>
+</thead>
+<tfoot>
+<tr>
+<td class="cell_1">foot1</td>
+<td class="cell_2">foot1</td>
+<td class="cell_3">foot1</td>
+<td class="cell_4">foot1</td>
+</tr>
+</tfoot>
+<tbody>
+<tr>
+  <td class="cell_1">{{1520.53f32.pan2()}}</td>
+<td class="cell_2">cell2_2</td>
+<td class="cell_3">cell3_2</td>
+<td class="cell_4">cell4_2</td>
+</tr>
+</tbody>
+</table>
+
+ </body>
+</html>

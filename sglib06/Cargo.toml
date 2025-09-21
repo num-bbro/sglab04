@@ -12,4 +12,13 @@ repository = "https://github.com/num-bbro/sglab02/tree/main/sglab02_bin"
 askama = "0.14.0"
 askama_web = { version = "0.14.5", features = ["axum-0.8"] }
 axum = "0.8.4"
+bincode = "2.0.1"
+fast-math = "0.1.1"
+num-traits = "0.2.19"
+serde = "1.0.219"
+sglab02_lib = "0.1.6"
+sglib03 = "0.1.0"
+sglib04 = "0.1.5"
+sglib05 = "0.1.8"
+strum = "0.27.2"
 tokio = { version = "1.47.0", features = ["full"] }
