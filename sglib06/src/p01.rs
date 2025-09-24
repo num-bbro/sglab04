@@ -149,6 +149,7 @@ fn pvrw00_init() -> Vec<PeaAssVar> {
 pub async fn run1() -> Result<(), Box<dyn Error>> {
     println!("run1");
     let app = axum::Router::new()
+        .route("/sba01", get(crate::sba01::sba01))
         // sub
         .route("/sb01", get(crate::sb01::sb01))
         .route("/sb02", get(crate::sb02::sb02))
