@@ -19,6 +19,6 @@ serde = "1.0.219"
 sglab02_lib = "0.1.6"
 sglib03 = "0.1.0"
 sglib04 = "0.1.5"
-sglib05 = "0.1.8"
+sglib05 = "0.1.9"
 strum = "0.27.2"
 tokio = { version = "1.47.0", features = ["full"] }

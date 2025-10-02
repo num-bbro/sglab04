@@ -38,7 +38,7 @@ const FLD_LIST: [(VarType, &str); 17] = [
 ];
 
 #[derive(Template, WebTemplate, Debug, Default)]
-#[template(path = "sba01.html")]
+#[template(path = "sba02.html")]
 pub struct WebTemp {
     name: String,
     assv: Vec<PeaAssVar>,
@@ -79,7 +79,7 @@ impl WebTemp {
 
 //use axum::extract::Query;
 //pub async fn sb01(para: Query<Param>) -> WebTemp {
-pub async fn sba01() -> WebTemp {
+pub async fn sba02() -> WebTemp {
     // ============================
     // ==== read rw3 data
     let Ok(buf) = std::fs::read(format!("{DNM}/000-sbno.bin")) else {

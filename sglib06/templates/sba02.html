@@ -97,6 +97,7 @@
 
 {% for rw in assv.iter() %}
 {% let sbinf = sbif.get(rw.sbid).unwrap() %}
+{% if aoj5(&rw) %}
 <tr>
   <td class="cell_s">{{loop.index}}</td>
   <td class="cell_2">{{rw.sbid}}: {{sbinf.name}}</td>
@@ -111,6 +112,7 @@
 {% endif %}
 {% endfor %}
 </tr>
+{% endif %}
 
 {% endfor %}
 </tbody>

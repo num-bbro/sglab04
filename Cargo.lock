@@ -3364,9 +3364,9 @@ dependencies = [
 
 [[package]]
 name = "sglib05"
-version = "0.1.8"
+version = "0.1.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "68b5e897b648e45deb10c5b4156e240610509e1d4b9806c4552a5151c71f6b5d"
+checksum = "1f169008ef459912586d7b9540dc5e1b888a8cd81e210c32e3564e99b58db7a7"
 dependencies = [
  "ab_glyph",
  "bincode 2.0.1",
